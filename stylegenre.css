@@ -1,0 +1,165 @@
+@media(min-width: 400px){
+    body{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+}
+
+
+body{
+    background-color: #FFF9B6;
+    margin: 0;
+    display: block;
+   
+}
+.head{
+    background-color: #F6D167;
+    padding: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mlain{
+    border-collapse: collapse;
+    width: 100%;
+    border: 0px solid #F6D167;
+    margin: 0px;
+    
+    
+} 
+.blya{
+    border: 0px solid #F6D167;
+    padding: 3px;
+}
+#mline{
+   position:relative;
+
+  
+   padding-top: 10px;
+  
+   font-size: 20px;
+   width: 100%;
+}
+.logo{
+    width: 100;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+.nav-links, a, .reg{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #630A10;
+}
+.nav-links{
+    display: flex ;
+    list-style: none;
+}
+.nav-links, li{
+    padding: 0px 20px;
+}
+.nav-links, a{
+    transition: background-color color 0.3s ease 0s;
+}
+.nav-links:hover, a:hover{
+    color: rgb(253, 225, 171);
+}
+
+.reg{
+    padding: 10px;
+}
+.registration, .entrance{
+    padding:  9px 25px;
+    background-color: rgb(253, 225, 171);
+    border: none;
+    border-radius: 50px;
+    transition: background-color color 0.3s ease 0s;
+    margin: 10px;
+}
+
+.registration:hover, .entrance:hover{
+    background-color: hsl(356,81.7%,21.4%, 0.651);
+    color: rgb(253, 225, 171);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'EB Garamond', serif;
+    font-weight: lighter;
+    font-size: 20px;
+   
+}
+.titbut{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h{
+    flex-grow: 3;
+    border-right: solid 1px;
+    padding: 10px;
+    position: absolute;
+   left: 7px;
+   top: 450px;
+}
+.nh{
+    padding: 10px;
+    flex-grow: 3;
+    position: absolute;
+    top: 450px;
+}
+.child {
+    border-left: solid 1px;
+    padding: 10px;
+    flex-grow: 2;
+   position:absolute;
+   right: 7px;
+   top: 450px;
+ 
+    
+}
+.list1{
+    display: flex;
+}
+.pop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+    
+}
+.p{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'EB Garamond', serif;
+    font-weight: lighter;
+    font-size: 20px;
+
+}
+.main{
+    padding: 15px;
+}
+h1{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+.foot{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    color: #630A10;
+    opacity: 0.6;
+    text-align: center;
+    border-top: #630A10 solid 1px;
+    margin: 0;
+}
+
