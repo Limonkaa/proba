@@ -1,0 +1,121 @@
+@media(min-width: 400px){
+    body{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+}
+
+body{
+    background-color: #FFF9B6;
+    margin: 0;
+    display: block;
+   
+}
+.head{
+    background-color: #F6D167;
+    padding: auto;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mlain{
+    border-collapse: collapse;
+    width: 100%;
+    border: 0px solid #F6D167;
+    margin: 0px;
+    
+    
+} 
+.blya{
+    border: 0px solid #F6D167;
+    padding: 3px;
+}
+#mline{
+   position:relative;
+
+  
+   padding-top: 10px;
+  
+   font-size: 20px;
+   width: 100%;
+}
+.logo{
+    width: 100;
+    padding: 10px;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.nav-links, a, .reg{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: #630A10;
+}
+.nav-links{
+    display: flex ;
+    list-style: none;
+}
+.nav-links, li{
+    padding: 0px 20px;
+}
+.nav-links, a{
+    transition: background-color color 0.3s ease 0s;
+}
+.nav-links:hover, a:hover{
+    color: rgb(253, 225, 171);
+}
+
+.reg{
+    padding: 10px;
+}
+.registration, .entrance{
+    padding:  9px 25px;
+    background-color: rgb(253, 225, 171);
+    border: none;
+    border-radius: 50px;
+    transition: background-color color 0.3s ease 0s;
+    margin: 10px;
+}
+
+.registration:hover, .entrance:hover{
+    background-color: hsl(356,81.7%,21.4%, 0.651);
+    color: rgb(253, 225, 171);
+}
+.contain{
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+}
+.pi{
+    background-color: rgba(99, 10, 16, 0.24);
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'EB Garamond', serif;
+  border-radius: 4px;
+  text-align: center;
+}
+p{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.a{
+    padding: 15px;
+}
+.foot{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'EB Garamond', serif;
+    color: #630A10;
+    opacity: 0.6;
+    text-align: center;
+    border-top: #630A10 solid 1px;
+    margin: 0;
+}
